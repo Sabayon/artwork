@@ -1,0 +1,38 @@
+[KSplash Theme: Lines]
+Name = Sabayon 4.0
+Description = Simple splash screen for KDE3 (based on Pau-Splash-Kde by Pau Cors Bardolet)
+Version = 0.2
+Author = Ian Whyman 
+Homepage = www.sabayonlinux.org
+Engine = Moodin
+
+BeginOpacity = 0
+BaseResolution = 1280,1024
+UseIconSet = false
+LabelShadow = 0
+
+
+ImageCoords1 = 250,450
+ImageCoords2 = 350,450
+ImageCoords3 = 450,450
+ImageCoords4 = 550,450
+ImageCoords5 = 650,450
+ImageCoords6 = 750,450
+ImageCoords7 = 850,450
+ImageCoords8 = 950,450
+
+LineUpImages = false
+ImageOffset1 = 0,0
+
+#Labels = 2
+#Label1 = Welcome ML:USER:loginname
+#LabelFont1 = DejaVu Sans Mono,52,-1,0,5,50,0
+#LabelCoords1 = -1,80
+#LabelColor1 = #3f3f41
+#LabelShadowColor1 = #9c9d9f
+#LabelShadowOffset = 2,2
+
+StatusCoords = -1,575
+StatusFont = Sans,18,-1,5,50,0
+StatusColor = #FAFAFA
+StatusFont = Sans,14,-1,5,50,0

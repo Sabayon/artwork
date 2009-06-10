@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="roadmap.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/v00d00/build/sabayon/artwork/sabayon-artwork-4.2/wip/roadmap.png"
+   inkscape:export-xdpi="184.75771"
+   inkscape:export-ydpi="184.75771">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3341">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3343" />
+      <stop
+         style="stop-color:#1c1c1c;stop-opacity:0.96078432;"
+         offset="1"
+         id="stop3345" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3323">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3325" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3327" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3309">
+      <stop
+         style="stop-color:#00b0ff;stop-opacity:1;"
+         offset="0"
+         id="stop3311" />
+      <stop
+         id="stop3317"
+         offset="0.63276851"
+         style="stop-color:#00b0ff;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#00b0ff;stop-opacity:0;"
+         offset="1"
+         id="stop3313" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3309"
+       id="linearGradient3315"
+       x1="17.596567"
+       y1="288.91275"
+       x2="273.81976"
+       y2="175.25035"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3323"
+       id="linearGradient3329"
+       x1="250.93134"
+       y1="198.85405"
+       x2="281.25754"
+       y2="177.11159"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3341"
+       id="radialGradient3353"
+       cx="-206.13699"
+       cy="307.24298"
+       fx="-206.13699"
+       fy="307.24298"
+       r="146.13734"
+       gradientTransform="matrix(-2,-1.3145985e-7,1.2161484e-7,-1.8502202,-116.99504,586.49291)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       r="71.40696"
+       fy="95.007561"
+       fx="81.694405"
+       cy="95.007561"
+       cx="81.694405"
+       gradientTransform="matrix(1.1456037,3.2147393e-2,-2.9411852e-2,1.0481103,9.2050136,-2.2050416)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2431"
+       xlink:href="#linearGradient3163"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="98.118896"
+       x2="141.3333"
+       y1="95.007561"
+       x1="11.258976"
+       gradientTransform="matrix(1.8262966e-2,0.9581635,-0.7635112,1.4552752e-2,171.0474,20.339658)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2428"
+       xlink:href="#linearGradient4785"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="106.60844"
+       x2="150.70486"
+       y1="45.730022"
+       x1="46.915581"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2422"
+       xlink:href="#linearGradient4808"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4808"
+       id="linearGradient4825"
+       y2="106.60844"
+       x2="150.70486"
+       y1="45.730022"
+       x1="46.915581" />
+    <linearGradient
+       gradientTransform="matrix(1.05595,-9.26276e-5,-5.88156e-5,1.05982,-4.56539,-5.676)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4785"
+       id="linearGradient4795"
+       y2="98.118896"
+       x2="141.3333"
+       y1="95.007561"
+       x1="11.258976" />
+    <radialGradient
+       gradientTransform="matrix(0.89376,3.08058e-2,-2.29461e-2,1.00437,10.8593,-2.93184)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3163"
+       id="radialGradient3169"
+       fy="95.007561"
+       fx="81.694405"
+       r="71.40696"
+       cy="95.007561"
+       cx="81.694405" />
+    <linearGradient
+       id="linearGradient3163">
+      <stop
+         offset="0"
+         style="stop-color: rgb(0, 176, 255); stop-opacity: 1;"
+         id="stop3165" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(0, 176, 255); stop-opacity: 0;"
+         id="stop3167" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3173">
+      <stop
+         offset="0"
+         style="stop-color: rgb(33, 0, 115); stop-opacity: 1;"
+         id="stop3175" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(33, 0, 115); stop-opacity: 0;"
+         id="stop3177" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3189">
+      <stop
+         offset="0"
+         style="stop-color: rgb(0, 46, 67); stop-opacity: 0;"
+         id="stop3191" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(0, 46, 67); stop-opacity: 1;"
+         id="stop3193" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4785">
+      <stop
+         offset="0"
+         style="stop-color: rgb(0, 176, 255); stop-opacity: 1;"
+         id="stop4787" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(0, 21, 31); stop-opacity: 0;"
+         id="stop4789" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4808">
+      <stop
+         offset="0"
+         style="stop-color: rgb(255, 255, 255); stop-opacity: 0.72449;"
+         id="stop4810" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(255, 255, 255); stop-opacity: 0.0408163;"
+         id="stop4812" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4849">
+      <stop
+         offset="0"
+         style="stop-color: rgb(16, 16, 16); stop-opacity: 1;"
+         id="stop4851" />
+      <stop
+         offset="1"
+         style="stop-color: rgb(0, 0, 0); stop-opacity: 1;"
+         id="stop4853" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective2418"
+       inkscape:persp3d-origin="100 : 66.666667 : 1"
+       inkscape:vp_z="200 : 100 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 100 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#313131"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.33"
+     inkscape:cx="193.52336"
+     inkscape:cy="140.9466"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     borderlayer="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1578"
+     inkscape:window-height="961"
+     inkscape:window-x="0"
+     inkscape:window-y="24" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:url(#radialGradient3353);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3319"
+       width="292.27469"
+       height="270.38626"
+       x="3.0042918"
+       y="18.025751"
+       ry="2.3553641" />
+    <path
+       style="opacity:1;fill:url(#linearGradient3315);fill-opacity:1;stroke:none;stroke-width:4.08400010999999985;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="M 7.2961359,259.10904 L 283.29536,168.8126 L 294.42064,166.95843 L 289.30913,172.05755 L 143.49484,275.96566 L 7.2961359,259.10904 z"
+       id="rect2383"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.93353558;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 143.33101,275.51985 L 8.1711297,259.77521 C 8.1711297,25.354845 9.0297862,24.480142 9.0297862,24.480142"
+       id="path3158"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.67225003000000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+       d="M 255.52873,194.89318 L 214.42836,191.28491 C 214.42836,137.5616 214.42836,137.36114 214.42836,137.36114"
+       id="path3164" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.8882941;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 188.92009,242.79326 L 87.380525,233.00626 C 87.380525,87.288732 87.380525,86.74501 87.380525,86.74501"
+       id="path3166" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.65704358;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 160.06594,262.78242 L 36.228506,250.23804 C 36.228506,63.465811 36.228506,62.7689 36.228506,62.7689"
+       id="path3179" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.81407714;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 224.36731,216.90902 L 156.52858,210.31973 C 156.52858,112.21242 156.52858,111.84635 156.52858,111.84635"
+       id="path3205" />
+    <g
+       id="g3287"
+       transform="translate(4.2918455,13.304721)">
+      <rect
+         transform="scale(1,-1)"
+         ry="2.3553646"
+         y="-120.17168"
+         x="148.06866"
+         height="21.030043"
+         width="90.987122"
+         id="rect3245"
+         style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text3207"
+         y="116.6018"
+         x="155.58009"
+         style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+         xml:space="preserve"><tspan
+           id="tspan3211"
+           style="font-size:11px;fill:#ffffff"
+           y="116.6018"
+           x="155.58009"
+           sodipodi:role="line">Sabayon 5.1</tspan></text>
+      <g
+         id="g3355">
+        <text
+           xml:space="preserve"
+           style="font-size:45.98687744px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           x="154.16513"
+           y="106.99845"
+           id="text3223"><tspan
+             sodipodi:role="line"
+             id="tspan3225"
+             x="154.16513"
+             y="106.99845"
+             style="font-size:6px">30th Sept 2009</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3247"
+       width="75.536476"
+       height="21.030027"
+       x="210.72961"
+       y="-157.93991"
+       ry="2.3553641"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+       x="217.5869"
+       y="153.94086"
+       id="text3213"><tspan
+         sodipodi:role="line"
+         x="217.5869"
+         y="153.94086"
+         style="font-size:11px;fill:#ffffff"
+         id="tspan3217">Sabayon 5.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.50157166px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="242.41374"
+       y="143.60049"
+       id="text3227"
+       transform="scale(0.9947671,1.0052605)"><tspan
+         sodipodi:role="line"
+         x="242.41374"
+         y="143.60049"
+         style="font-size:6px;text-align:center;text-anchor:middle"
+         id="tspan3231">Christmas 2009</tspan></text>
+    <g
+       id="g3294"
+       transform="translate(4.2918455,24.463519)">
+      <rect
+         transform="scale(1,-1)"
+         ry="2.3553646"
+         y="-60.515022"
+         x="29.184547"
+         height="21.030043"
+         width="90.128754"
+         id="rect3241"
+         style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text3181"
+         y="57.014256"
+         x="33.592026"
+         style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+         xml:space="preserve"><tspan
+           style="font-size:11px;fill:#ffffff"
+           y="57.014256"
+           x="33.592026"
+           id="tspan3183"
+           sodipodi:role="line">Branch 5 Creation</tspan></text>
+      <text
+         transform="scale(0.9947671,1.0052605)"
+         id="text3249"
+         y="45.653397"
+         x="55.143864"
+         style="font-size:30.50157738px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan3251"
+           style="font-size:6px;text-align:center;text-anchor:middle"
+           y="45.653397"
+           x="55.143864"
+           sodipodi:role="line">4th June 2009</tspan></text>
+    </g>
+    <g
+       id="g3280"
+       transform="translate(4.2918455,24.034335)">
+      <rect
+         transform="scale(1,-1)"
+         ry="2.4034333"
+         y="-85.836914"
+         x="80.257515"
+         height="21.459227"
+         width="90.128754"
+         id="rect3243"
+         style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text3197"
+         y="81.654419"
+         x="87.426193"
+         style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+         xml:space="preserve"><tspan
+           id="tspan3201"
+           style="font-size:11px;fill:#ffffff"
+           y="81.654419"
+           x="87.426193"
+           sodipodi:role="line">Sabayon 5.0</tspan></text>
+      <text
+         transform="scale(0.9947671,1.0052605)"
+         id="text3253"
+         y="70.415833"
+         x="86.380264"
+         style="font-size:30.50158501px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan3255"
+           style="font-size:6px;text-align:start;text-anchor:start"
+           y="70.415833"
+           x="86.380264"
+           sodipodi:role="line">9th August 2009</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3239"
+       width="90.128754"
+       height="33.476395"
+       x="6.0085859"
+       y="-58.515018"
+       ry="3.749356"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+       x="11.587983"
+       y="41.630901"
+       id="text3168"><tspan
+         sodipodi:role="line"
+         id="tspan3170"
+         x="11.587983"
+         y="41.630901"
+         style="font-size:11px;fill:#ffffff">Sabayon 4.2</tspan><tspan
+         sodipodi:role="line"
+         x="11.587983"
+         y="55.380901"
+         style="font-size:11px;fill:#ffffff"
+         id="tspan3235">Beta/Testing Starts</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30.50157547px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="31.845966"
+       y="32.418297"
+       id="text3257"
+       transform="scale(0.9947671,1.0052605)"><tspan
+         sodipodi:role="line"
+         x="31.845966"
+         y="32.418297"
+         style="font-size:6px;text-align:center;text-anchor:middle"
+         id="tspan3259">3rd June 2009</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient3329);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 142.91845,275.53648 C 280.6867,178.11159 280.25751,178.11159 280.25751,178.11159"
+       id="path3321" />
+    <g
+       id="g4291"
+       transform="matrix(0.4021391,0,0,0.4021391,213.76894,213.53514)">
+      <path
+         d="M 191.52804,99.99962 C 191.54142,150.05699 150.55902,190.64353 100.00003,190.64353 C 49.441047,190.64353 8.458642,150.05699 8.4720213,99.99962 C 8.458642,49.942253 49.441047,9.3557134 100.00003,9.3557134 C 150.55902,9.3557134 191.54142,49.942253 191.52804,99.99962 L 191.52804,99.99962 z"
+         id="path3161"
+         style="fill:url(#radialGradient2431);fill-opacity:1;stroke:#210073;stroke-width:0pt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="M 101.17748,162.00749 C 66.942112,162.66242 38.661644,135.43122 38.011282,101.1849 C 37.36092,66.938582 64.586943,38.645529 98.822309,37.9906 C 133.05767,37.335669 161.33814,64.56687 161.9885,98.813187 C 162.63887,133.0595 135.41284,161.35256 101.17748,162.00749 L 101.17748,162.00749 z"
+         id="path3157"
+         style="fill:url(#linearGradient2428);fill-opacity:1;stroke:none;stroke-width:15.6498003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         d="M 101.11809,157.67928 C 69.596172,158.26397 43.542089,133.18349 42.92467,101.66046 C 42.307251,70.137424 67.3603,44.108974 98.882217,43.524285 C 130.40414,42.939597 156.45822,68.02008 157.07564,99.543112 C 157.69306,131.06615 132.64001,157.0946 101.11809,157.67928 L 101.11809,157.67928 z"
+         id="path4777"
+         style="fill:#101010;fill-opacity:1;stroke:none;stroke-width:15.6498003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         x="53.549999"
+         y="140.35001"
+         id="text4781"
+         xml:space="preserve"
+         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:AnimalTracks"
+         sodipodi:linespacing="125%"><tspan
+           x="53.549999"
+           y="140.35001"
+           id="tspan4783">q</tspan></text>
+      <path
+         d="M 96.534537,45.522066 C 73.735565,47.377035 59.052767,59.750418 50.869532,78.11749 C 49.921386,80.570306 48.86054,83.009768 48.1691,85.50926 C 47.673019,88.365715 50.177453,90.821244 52.046919,93.151706 C 55.233962,96.97961 58.234806,101.11643 63.350639,103.78112 C 69.480042,107.10614 78.104935,106.93877 84.726815,104.49247 C 88.439647,103.22503 91.325872,100.97961 95.109945,99.791098 C 97.867705,98.718339 101.11115,98.494982 104.13452,99.027843 C 110.15972,99.844008 116.27192,101.47124 122.46109,100.51212 C 130.34219,99.632449 137.23726,96.414499 143.3032,92.79636 C 145.68868,91.363777 148.55599,90.2895 150.61473,88.571067 C 152.52343,86.936434 151.75833,84.668982 151.66524,82.723017 C 150.41029,75.195806 146.38808,67.937163 140.12606,61.882741 C 133.78356,55.646072 125.29587,50.432803 115.27175,47.654775 C 109.3301,46.006436 102.89787,45.124653 96.534537,45.522066 z"
+         id="path4816"
+         style="opacity:0.40394102;fill:url(#linearGradient2422);fill-opacity:1;stroke:none;stroke-width:13.38799953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         d="M 155.15434,99.999548 C 155.16193,130.46561 130.4663,155.16725 100.00009,155.16725 C 69.533877,155.16725 44.838257,130.46561 44.845841,99.999548 C 44.838257,69.533491 69.533877,44.831848 100.00009,44.831848 C 130.4663,44.831848 155.16193,69.533491 155.15434,99.999548 L 155.15434,99.999548 z"
+         id="path4827"
+         style="fill:none;fill-opacity:1;stroke:#101010;stroke-width:0.74999934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:49.49223709px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="129.43201"
+       y="66.465553"
+       id="text4300"><tspan
+         sodipodi:role="line"
+         id="tspan4302"
+         x="129.43201"
+         y="66.465553"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Asenine;-inkscape-font-specification:Asenine">sabayon</tspan><tspan
+         sodipodi:role="line"
+         x="129.43201"
+         y="128.33086"
+         id="tspan4304"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Asenine;-inkscape-font-specification:Asenine" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:33.30308533px;font-style:normal;font-weight:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="184.82347"
+       y="45.314907"
+       id="text4306"><tspan
+         sodipodi:role="line"
+         id="tspan4308"
+         x="184.82347"
+         y="45.314907"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#666666;font-family:Asenine;-inkscape-font-specification:Asenine">roadmap</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:67.57258606px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="43.166161"
+       y="284.26669"
+       id="text4322"
+       transform="scale(1.025966,0.9746912)"><tspan
+         sodipodi:role="line"
+         id="tspan4324"
+         x="44.241779"
+         y="284.26669"
+         style="font-size:6.75725889px;text-align:center;text-anchor:middle;fill:#e6e6e6">Dates can and will </tspan><tspan
+         sodipodi:role="line"
+         x="43.166161"
+         y="292.71326"
+         style="font-size:6.75725889px;text-align:center;text-anchor:middle;fill:#e6e6e6"
+         id="tspan4326">change without notice</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+[GdmGreeterTheme]
+Greeter=sabayon_linux.xml
+Name=Sabayon Linux GDM Theme
+Description=Official Sabayon Linux theme
+Author=Fabio Erculiani
+Copyright=(c) 2008
+Screenshot=screenshot.png

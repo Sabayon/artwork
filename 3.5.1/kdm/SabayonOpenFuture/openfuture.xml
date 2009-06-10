@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+<!-- The Future Is Open Theme -->
+<greeter>
+
+ 	<item type="pixmap">
+		<normal file="/usr/share/backgrounds/login.png"/>
+		<pos x="0" y="0" width="100%" height="100%"/>
+	</item>
+
+	<!-- Clock & Date -->
+	<item type="label" id="clock">
+		<normal color="#ffffff" font="Sans 15"/>
+		<pos x="-5" y="96%" anchor="ne"/>
+		<text>%c</text>
+	</item>
+
+
+	<!-- Logo Area -->
+	<item type="rect">
+		<pos anchor="c" x="50%" y="45%" width="box" height="box"/>
+		<fixed>
+		<item type="label" id="pam-error">
+			<pos anchor="n" x="50%" y="110%"/>
+			<normal color="#000000" font="Sans 12"/>
+			<text></text>
+		</item>
+		</fixed>
+	</item>
+
+	<!-- Caps Lock Warning Area-->
+	<item type="rect" id="caps-lock-warning">
+		<normal color="#ff0000" alpha="0.5"/>
+		<pos anchor="c" x="50%" y="-80" width="box" height="box"/>
+		<box orientation="vertical" min-width="90" xpadding="10" ypadding="5" spacing="0">
+			<item type="label">
+				<normal color="#EEEEEE" font="Sans 15"/>
+				<pos x="50%" anchor="n"/>
+				<!-- Stock label for: You've got capslock on! -->
+				<stock type="caps-lock-warning"/>
+			</item>
+		</box>
+	</item>
+
+	<!-- Login Area -->
+	<item type="rect" id="loginbox">
+
+		<normal color="#eeeeee" alpha="0.4"/>
+		<pos x="0" y="33%" anchor="nw" width="100%" height="120" />
+
+  		<item type="rect" id="userlist-background">
+	  	  <pos x="8%" y="15" width="25%" height="90" />
+    			<normal color="#ffffff" alpha="1.0"/>
+    			<fixed>
+      		   	  <item type="rect" id="userlist">
+        			<pos x="0" y="0" width="100%" height="100%"/>
+        			<show type="userlist"/>
+      		   	  </item>
+    			</fixed>
+  		</item>
+
+		<item type="rect">
+			<pos anchor="c" x="65%" y="50%" width="box" height="box"/>
+			<box orientation="horizontal" spacing="5" xpadding="10">
+
+				<!-- User Area-->
+				<pos anchor="center" x="0" y="50%"/>
+				<item type="label">
+					<pos anchor="cw" x="0" y="50%"/>
+					<normal color="#FFFFFF" font="Verdana 11"/>
+					<stock type="username-label"/>
+				</item>
+				<item type="entry" id="user-entry">
+					<pos anchor="cw" x="0" y="50%" height="25" width="130"/>
+				</item>
+
+				<!-- Password Area-->
+				<item type="label">
+					<pos anchor="cw" x="10" y="50%"/>
+					<normal color="#FFFFFF" font="Verdana 11"/>
+					<stock type="password-label"/>
+				</item>
+				<item type="entry" id="pw-entry">
+					<normal font="Verdana 13"/>
+					<pos anchor="cw" x="10" y="50%" height="25" width="130"/>
+				</item>
+
+				<!-- OK Button -->
+				<item type="rect" id="login_button" button="true">
+					<pos  anchor="cw"  x="5" y="53%" width="box" height="box"/>
+					<box orientation="horizontal" spacing="1" xpadding="10">
+						<item type="pixmap">
+							<normal file="go.png" />
+							<prelight file="go_hover.png"/>
+							<active file="go_hover.png" tint="#ECF0F4"/>
+						</item>
+					</box>
+				</item>
+
+			</box>
+		</item>
+	</item>
+
+	<!-- Bottom Bar-->
+	<item type="rect">
+		<pos x="0" y="-10" anchor="sw" width="100%" height="box"/>
+		<box orientation="horizontal">
+
+			<!-- Session Menu -->
+			<item type="rect" id="session_button" button="true">
+				<pos y="0" x="0" width="box" height="box"/>
+				<box orientation="horizontal" spacing="7" xpadding="5">
+					<item type="pixmap">
+						<normal file="session.png"/>
+						<prelight file="session.png" tint="#ECF0F4"/>
+						<active file="session.png" tint="#BFCEF4"/>
+					</item>
+
+					<item type="label">
+						<normal color="#DFEEF4" font="Sans 13"/>
+						<prelight color="#E9F9FF" font="Sans 13"/>
+						<active color="#F7FFFE" font="Sans 13"/>
+						<pos y="50%" anchor="w"/>
+						<stock type="session"/>
+					</item>
+				</box>
+			</item>
+
+			<!-- System Menu -->
+			<item type="rect" id="system_button" button="true">
+				<pos y="0" anchor="nw" width="box" height="box"/>
+				<box orientation="horizontal" spacing="7" xpadding="10">
+					<item type="pixmap">
+						<normal file="system.png"/>
+						<prelight file="system.png" tint="#ECF0F4"/>
+						<active file="system.png" tint="#BFCEF4"/>
+					</item>
+
+					<item type="label">
+						<pos y="50%" anchor="cw"/>
+						<normal color="#DFEEF4" font="Sans 13"/>
+						<prelight color="#E9F9FF" font="Sans 13"/>
+						<active color="#F7FFFE" font="Sans 13"/>
+						<stock type="system"/>
+					</item>
+				</box>
+			</item>
+		</box>
+	</item>
+
+</greeter>

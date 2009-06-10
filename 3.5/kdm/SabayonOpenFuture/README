@@ -1,0 +1,11 @@
+Name: "BC Open Future" KDM  theme
+Author: Boski Cinek (Marcin Biernat) - www.boskastrona.xhejn.org
+Changed by: Fabio Erculiani - www.sabayonlinux.org
+License: GPL
+About:
+	This is KDM theme I made for my own, but I decided to share it with community.
+The theme is based on amazing "New Tux" (http://www.kde-look.org/content/show.php?content=8418).
+It's also use some of Crystal Clear Icons by Everaldo (http://www.kde-look.org/content/show.php?content=25668).
+
+Note: If You want to use different background then default one (green) you have to manually edit XML theme file, but
+it's truely simple: you need to change only one line at the beginning of the file.

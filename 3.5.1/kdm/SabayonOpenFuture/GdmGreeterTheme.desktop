@@ -1,0 +1,10 @@
+[Desktop Entry]
+Icon=
+
+[GdmGreeterTheme]
+Author=Boski Cinek (Marcin Biernat)
+Description=BC Open Future KDM Theme
+Encoding=UTF-8
+Greeter=openfuture.xml
+Name=BCOpenFuture
+Screenshot=screenshot.png

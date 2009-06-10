@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Sabayon 4.1
+Type=X-GNOME-Metatheme
+Comment=Sabayon 4.1
+
+[X-GNOME-Metatheme]
+GtkTheme=ClearlooksSL
+MetacityTheme=BlendedDoubleRound
+IconTheme=gnome-brave
+GtkColorScheme=fg_color:#333333333333,bg_color:#f9cdf9cdf9cd,text_color:#333333333333,base_color:#ffffffffffff,selected_fg_color:#c03ac03ac03a,selected_bg_color:#262625252525,tooltip_fg_color:#000000000000,tooltip_bg_color:#ffff99995555
+CursorTheme=whiteglass
+CursorSize=16
+NotificationTheme=standard
+BackgroundImage=/usr/share/backgrounds/sabayonlinux.png

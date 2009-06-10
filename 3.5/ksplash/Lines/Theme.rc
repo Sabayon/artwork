@@ -1,0 +1,26 @@
+[KSplash Theme: Lines]
+Name = Lines
+Description = Based on "Micro Iconset" by bluemalboro http://bluemalboro.deviantart.com/
+Version = v1.0
+Author = F. Yilmaz (lzfy)
+Homepage = www.lzfy.nl (lazyilmaz@gmail.com)
+Engine = Moodin
+
+BeginOpacity = 0.1
+Background = Background.png
+BaseResolution = 1365,1024
+
+UseIconSet = false
+IconSetSize = 128
+
+ShowStatusText = false
+StatusCoords = -1,470
+
+ImageCoords7 = 1084,470
+ImageCoords6 = 965,468
+ImageCoords5 = 848,471
+ImageCoords4 = 739,470
+ImageCoords3 = 631,470
+ImageCoords2 = 530,470
+#ImageCoords2 = 490,470
+ImageCoords1 = 427,470
