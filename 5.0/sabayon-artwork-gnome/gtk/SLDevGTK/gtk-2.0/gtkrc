@@ -1,0 +1,142 @@
+# Sabayon GTK Theme 2.0 Uses portions of:
+# * Murreza 0.9.
+# * ClearlooksSL 1.0
+# Requires:
+# Murrine engine (0.90.3+)
+
+include "panel.rc" # Comment this line (add a # before it) if you want a dark panel.
+style "theme-default"
+{
+ GtkPaned    ::handle_size      = 6
+ GtkTreeView ::expander_size    = 14
+ GtkRange    ::slider-width     = 12
+ GtkMenuBar  ::internal-padding = 0
+
+ xthickness = 1
+ ythickness = 1
+
+ fg[NORMAL]        = "#222222"
+ fg[PRELIGHT]      = "#222222"
+ fg[SELECTED]      = "#FFFFFF"
+ fg[ACTIVE]        = "#505050"
+ fg[INSENSITIVE]   = "#B5B3AC"
+
+ bg[NORMAL]        = "#EEEEEC"
+ bg[PRELIGHT]      = "#EFEFEF"
+ bg[SELECTED]	   = "#343736"
+ bg[ACTIVE]        = "#F5F5F5"
+ bg[INSENSITIVE]   = "#EFEFEF"
+
+ base[NORMAL]      = "#FFFFFF"
+ base[PRELIGHT]    = "#595F5D"
+ base[SELECTED]    = "#343736"
+ base[ACTIVE]      = "#4D5150"
+ base[INSENSITIVE] = "#E8E8E8"
+
+ text[NORMAL]      = "#505050"
+ text[PRELIGHT]    = "#505050"
+ text[SELECTED]    = "#FFFFFF"
+ text[ACTIVE]      = "#FFFFFF"
+ text[INSENSITIVE] = "#B5B5B5"
+
+ engine "murrine"
+ {
+  style		    	   = MURRINE
+  animation            = TRUE
+  rgba				   = TRUE
+  gradients            = TRUE
+  gradient_shades      = {1.03,1.0,1.0,0.985}
+  contrast	       	   = .55
+  scrollbar_color      = "#E6E6E6"
+  scrollbarstyle       = 2 # 0 to get rid of the handles. (2 default)
+  sliderstyle          = 0
+  stepperstyle         = 1
+  glazestyle           = 0
+  reliefstyle	       = 2
+  toolbarstyle	       = 2
+  progressbarstyle     = 1 # 0 to get rid of the stripes. (1 default)
+  roundness            = 0
+  highlight_shade      = 1.00
+  lightborder_shade    = 2.00
+  lightborderstyle     = 1
+  menuitemstyle        = 0 # 1 if you want borders around menu items. (0 default)
+  menubarstyle         = 3 # 2 is the recommended alternative if you don't like the stripes. (3 default)
+  menubaritemstyle     = 0
+  listviewstyle        = 1 # 0 to turn off the dots. (1 default)
+  listviewheaderstyle  = 1
+ }
+}
+
+style "theme-button" = "theme-default"
+{
+ bg[NORMAL]	 = "#E6E6E6"
+ bg[PRELIGHT]	 = "#D9D9D9"
+ bg[ACTIVE]      = "#CCCCCC"
+ bg[SELECTED]    = "#343736"
+ bg[INSENSITIVE] = "#FAFAFA"
+}
+
+style "theme-menu" = "theme-default"
+{
+ xthickness = 2
+ ythickness = 1
+}
+
+style "theme-menu-item" = "theme-default"
+{
+ ythickness 	= 3
+ fg[NORMAL] 	= "#505050"
+ fg[PRELIGHT]   = "#FFFFFF"
+ text[PRELIGHT] = "#FFFFFF"
+}
+
+style "theme-menubar" = "theme-default"
+{
+	bg[NORMAL] = "#505050"
+	fg[NORMAL] = "#FFFFFF"
+	text[NORMAL]   = "#FFFFFF"
+}
+
+style "theme-menubar-item" = "theme-default"
+{
+ ythickness   = 4
+ fg[NORMAL]   = "#ffffff"
+ fg[PRELIGHT] = "#ffffff"
+ fg[INSENSITIVE] = "#222222" 
+ bg[NORMAL] = "#525252"
+ bg[PRELIGHT] = "#525252"
+ base[NORMAL] = "#525252"
+}
+
+style "theme-progressbar" = "theme-default"
+{
+ bg[SELECTED] = "#343736"
+ fg[PRELIGHT] = "#FFFFFF"
+}
+
+style "murrine-scrollbar"
+{
+ GtkRange ::trough-border = 3
+ engine "murrine" {
+  highlight_shade = 1.03
+ }
+}
+
+class "GtkWidget"      style "theme-default"
+class "GtkButton"      style "theme-button"
+class "GtkScale"       style "theme-button"
+class "GtkCombo"       style "theme-button"
+
+
+#class "GtkMenu"        style "theme-menu"
+#class "GtkMenuItem"    style "theme-menu-item"
+class "GtkProgressBar" style "theme-progressbar"
+class "GtkScrollbar"   style "murrine-scrollbar"
+class "*MenuBar*"      style "theme-menubar"
+
+# menus
+widget_class "*<GtkMenu>*"       	style "theme-menubar"
+widget_class "*<GtkMenuItem>*"   	style "theme-menubar-item"
+widget_class "*.<GtkMenuItem>.*" 	style "theme-menubar-item"
+widget_class "*Toolbar"				style "theme-toolbar"
+widget_class "*MenuBar.*"			style "theme-menubar"
