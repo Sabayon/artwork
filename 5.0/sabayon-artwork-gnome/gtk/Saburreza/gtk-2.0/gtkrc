@@ -12,8 +12,8 @@ style "theme-default"
  GtkRange	 ::slider-width	  = 12
  GtkMenuBar  ::internal-padding = 0
 
- xthickness = 3
- ythickness = 3
+ xthickness = 1
+ ythickness = 2
 
  fg[NORMAL]			 = "#222222"
  fg[PRELIGHT]		 = "#222222"
