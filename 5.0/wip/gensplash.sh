@@ -1,10 +1,10 @@
 #! /bin/bash
 
 if [ -z "$1" ]; then
-    echo "Ian Whymans Automagical Image Resizing Thingie v1.0"
+    echo "Thev00d00's Automagical Image Resizing Thingie v2.0"
     echo ""
-    echo "usage: $0 fbsplash input output aspect(normal/wide/all)"
-    echo "usage: $0 ksplash input"
+    echo "usage: $0 fbsplash input output aspect(normal/wide/all) format"
+    echo "usage: $0 ksplash input format"
     exit
 fi
 
@@ -40,17 +40,17 @@ then
     echo "Creating Images size: "$RESES""
     for i in ${RESES}
     do
-        convert $2 -filter Lanczos -resize ${i}\! $3-${i}.png
-        echo "converting ${2} to ${3}-${i}.png"
+        convert $2 -filter Lanczos -quality 94 -resize ${i}\! $3-${i}.${5}
+        echo "converting ${2} to ${3}-${i}.${5}"
     done
 
 elif [ $1 = ksplash ]
     then
-    for i in $RES1 $RES2 $RES3 $RES4 $RES6 $RES10
+    for i in 640x400 $RES2 $RES3 $RES4 $RES6 $RES10
     do
         mkdir $i
-        convert $2 -filter Lanczos -resize $i\! $i/background.png
-        echo "converting ${2} to $i/background.png"
+        convert $2 -filter Lanczos -quality 94 -resize $i\! $i/background.${3}
+        echo "converting ${2} to $i/background.${3}"
 	done
 	convert $2 -filter Lanczos -resize 400x300\! Preview.png
 

@@ -1,8 +1,0 @@
-[GdmGreeterTheme]
-Encoding=UTF-8
-Greeter=kdm.xml
-Name=Arch Underlight Blue
-Description=A simple KDM theme for Arch Linux.
-Author=Thayer Williams <thayerw@gmail.com>
-Copyright=(c) 2007 Thayer Williams--Some works licensed under Creative Commons (Attribution|ShareAlike)
-Screenshot=screenshot.png
