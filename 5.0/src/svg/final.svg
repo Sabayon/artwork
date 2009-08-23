@@ -447,10 +447,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.71555556"
-     inkscape:cx="749.05977"
+     inkscape:cx="521.9635"
      inkscape:cy="424.15772"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -472,7 +472,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:url(#linearGradient3466);fill-opacity:1;stroke:none;stroke-width:0.70899999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1"
        id="rect2383"
@@ -503,7 +504,7 @@
        x="-141.14906"
        y="498.91302" />
     <rect
-       style="opacity:0.75647673000000004;fill:url(#radialGradient3601);fill-opacity:1;stroke:none;stroke-width:0.70899999000000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.59999989999999981;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.75647673;fill:url(#radialGradient3601);fill-opacity:1;stroke:none;stroke-width:0.70899999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1"
        id="rect3593"
        width="547.82611"
        height="338.19876"
@@ -511,7 +512,7 @@
        y="125.7764" />
   </g>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Design"
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
@@ -560,7 +561,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="motto"
+     inkscape:label="Text"
      style="display:inline"
      sodipodi:insensitive="true">
     <text
