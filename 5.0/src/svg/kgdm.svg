@@ -17,7 +17,7 @@
    version="1.0"
    sodipodi:docname="kgdm.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/v00d00/build/sabayon/artwork/5.0/wip/final.png"
+   inkscape:export-filename="/home/v00d00/build/sabayon/artwork/5.0/src/kgdm.png"
    inkscape:export-xdpi="120"
    inkscape:export-ydpi="120">
   <defs
@@ -448,7 +448,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="706.34598"
-     inkscape:cy="449.27758"
+     inkscape:cy="489.27758"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
