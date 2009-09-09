@@ -22,7 +22,7 @@ done
 mkdir scalable
 mkdir scalable/$3
 cp $1 ./scalable/$3/$2
-gzip --suffix=svgz scalable/$3/$2
+gzip --suffix=.svgz scalable/$3/$2
 echo "moving ${1} to scalable/$3/$2.svgz"
 
 rm $1
