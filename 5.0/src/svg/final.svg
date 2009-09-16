@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,11 +14,11 @@
    height="900"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.47pre1 r21720"
    version="1.0"
    sodipodi:docname="final.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/v00d00/build/sabayon/artwork/5.0/wip/final.png"
+   inkscape:export-filename="/home/v00d00/build/sabayon/artwork/5.0/sabayon-artwork-core/background/sabayonlinux.png"
    inkscape:export-xdpi="120"
    inkscape:export-ydpi="120">
   <defs
@@ -447,8 +448,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.71555556"
-     inkscape:cx="521.9635"
-     inkscape:cy="424.15772"
+     inkscape:cx="865.33412"
+     inkscape:cy="368.2571"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -457,7 +458,8 @@
      inkscape:window-width="1861"
      inkscape:window-height="1054"
      inkscape:window-x="13"
-     inkscape:window-y="35" />
+     inkscape:window-y="35"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -466,6 +468,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -566,7 +569,7 @@
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
-       style="font-size:29.24276924px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+       style="font-size:29.24276924px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cicle;-inkscape-font-specification:Cicle"
        x="731.40338"
        y="534.22424"
        id="text3469"><tspan
@@ -580,7 +583,7 @@
            id="tspan3477"> source,</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:67.32891846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Cicle;-inkscape-font-specification:Cicle"
+       style="font-size:67.32891846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cicle;-inkscape-font-specification:Cicle"
        x="787.52948"
        y="559.72754"
        id="text3473"><tspan
@@ -597,7 +600,7 @@
        id="text3213"
        y="478.21344"
        x="518.66211"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Asenine;-inkscape-font-specification:Asenine"
          y="478.21344"
