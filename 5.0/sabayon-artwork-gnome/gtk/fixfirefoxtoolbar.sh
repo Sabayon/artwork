@@ -20,7 +20,8 @@ if [ "${1}" = "--help" ]; then
     echo ""
     echo "This software is under the "THE BEER-WARE LICENSE" (Revision 42)"
     exit
-fiif [ -f /etc/skel/.mozilla/firefox/*.default/chrome/userChrome.css ]; then
+fi
+#if [ -f /etc/skel/.mozilla/firefox/*.default/chrome/userChrome.css ]; then
 
 if [ -z "$1" ]; then
 	if [ -f ~/.mozilla/firefox/*.default/chrome/userChrome.css ]; then
