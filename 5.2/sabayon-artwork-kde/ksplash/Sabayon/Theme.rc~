@@ -1,0 +1,9 @@
+[KSplash Theme: Default]
+Name = Sabayon KDE Splash Screen
+Description = Sabayon KDE Splash Screen
+Version = 1.1
+Author = Nuno Pinheiro <nuno@oxygen-icons.org> & Riccardo Iaconelli <riccardo@kde.org>, Fabio Erculiani <lxnay@sabayonlinux.org>
+Homepage = http://www.kde.org
+
+# Theme behaviour settings.
+Engine = KSplashX

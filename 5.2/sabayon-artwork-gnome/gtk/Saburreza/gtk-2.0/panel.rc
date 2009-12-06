@@ -1,0 +1,46 @@
+# Sabayon Modifications to override Panel & Menu settings
+style "theme-panel"
+{
+ bg[SELECTED]	   = "#00B0FF"
+ bg[NORMAL]	  	   = "#222222"
+ bg[ACTIVE]      = "#ff0000"
+ bg[INSENSITIVE]   = "#000000"
+ bg[PRELIGHT]	= "#ff0000"
+
+ fg[NORMAL]		= "#ffffff"
+ fg[SELECTED]	= "#333333"
+ fg[ACTIVE]      = "#333333"
+ fg[PRELIGHT]	= "#000000"
+ fg[INSENSITIVE]   = "#222222"
+
+  text[NORMAL]      = "#ffffff"
+  text[PRELIGHT]    = "#222222"
+  text[SELECTED]    = "#222222"
+  text[ACTIVE]      = "#ffffff"
+  text[INSENSITIVE] = "#d0d0d0"
+}
+
+widget "*PanelWidget*"		  style "theme-panel"
+widget "*PanelApplet*"		  style "theme-panel"
+widget "*fast-user-switch*"	  style "theme-panel"
+widget "*CPUFreq*Applet*"	  style "theme-panel"
+widget "*indicator-applet*"	  style "theme-panel"
+class "PanelApp*"		  style "theme-panel"
+class "PanelToplevel*"		  style "theme-panel"
+widget_class "*PanelToplevel*"	  style "theme-panel"
+widget_class "*Mail*"		  style "theme-panel"
+class "*Panel*"		          style "theme-panel"
+widget_class "*notif*"		  style "theme-panel"
+widget_class "*Notif*"		  style "theme-panel"
+widget_class "*Tray*"		  style "theme-panel"
+widget_class "*tray*"		  style "theme-panel"
+widget_class "*computertemp*"	  style "theme-panel"
+widget_class "*Applet*Tomboy*"	  style "theme-panel"
+widget_class "*Applet*Netstatus*" style "theme-panel"
+
+widget "*Xfce*Panel*" style "theme-panel"
+class "*Xfce*Panel*"  style "theme-panel"
+
+widget "*PanelWidget*" style "theme-panel"
+widget "*PanelApplet*" style "theme-panel"
+widget "*gnome-panel*menu*" style "theme-panel"

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+
+<greeter id="theme">
+	<style font="Sans 9" window-text-color="#FFFFFF"
+	       alpha="0" base-color="#ffffff" alternate-base-color="#ffffff"
+	       text-color="#000000" disabled-text-color="#808080"/>
+	<item type="pixmap" id="background" background="true">
+		<normal file="background.png"/>
+		<pos anchor="c" x="50%" y="50%" width="101%" height="101%"/>
+	</item>
+	
+	<item type="rect" id="header">
+		<pos y="27" x="50%" anchor="c" width="450" height="55"/>
+		<fixed>
+			<item type="svg">
+				<normal file="widgets.svg" element="header-background"/>
+				<pos width="450" height="55"/>
+			</item>
+		</fixed>
+		<box orientation="horizontal" spacing="0" xpadding="0">
+			<item type="label" id="welcome" width="450" >
+				<pos x="225" y="20" anchor="c" />
+				<normal color="#dddddd" font="Sans Bold 11"/>
+				<stock type="welcome-label"/>
+			</item>
+		</box>
+	</item>
+
+	<item type="rect" id="greeter">
+		<pos y="50%" x="50%" anchor="c" width="390" height="200"/>
+
+		<fixed>
+			<item type="svg">
+				<normal file="box.svg" element="topleft"/>
+				<pos anchor="nw" x="0" y="0" width="17" height="17"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="top"/>
+				<pos anchor="n" x="50%" y="0" width="-34" height="17"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="topright"/>
+				<pos anchor="ne" x="-0" y="0" width="17" height="17"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="left"/>
+				<pos anchor="w" x="0" y="50%" width="17" height="-34"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="center"/>
+				<pos anchor="c" x="50%" y="50%" width="-34" height="-34"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="right"/>
+				<pos anchor="e" x="-0" y="50%" width="17" height="-34"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="bottomleft"/>
+				<pos anchor="sw" x="0" y="-0" width="17" height="17"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="bottom"/>
+				<pos anchor="s" x="50%" y="-0" width="-34" height="17"/>
+			</item>
+			<item type="svg">
+				<normal file="box.svg" element="bottomright"/>
+				<pos anchor="se" x="-0" y="-0" width="17" height="17"/>
+			</item>
+			<item type="svg">
+				<normal file="widgets.svg" element="plot-background"/>
+				<pos anchor="nw" x="20" y="20" width="350" height="160"/>
+			</item>
+			<item type="svg" id="login_button" button="true">
+				<normal file="button.svg" element="button-normal"/>
+				<prelight file="button.svg" element="button-hover"/>
+				<active file="button.svg" element="button-pressed"/>
+				<pos anchor="ne" x="-70" y="83" width="60" height="40"/>
+			</item>
+		</fixed>
+		
+		<box orientation="vertical" xpadding="15" ypadding="15" spacing="10">
+			<item type="rect" id="content">
+				<pos width="100%" height="box"/>
+				<box orientation="vertical" spacing="0">
+					<item type="rect" id="space2">
+						<pos width="100%" height="30"/>
+					</item>
+					<item type="label">
+						<pos x="44" y="2" height="21"/>
+						<normal color="#ffffff" font="Sans Bold 9"/>
+						<stock type="username-label"/>
+					</item>
+					<item type="entry" id="user-entry">
+						<pos x="41" y="1" width="150" height="25"/>
+					</item>
+					<item type="rect" id="space2">
+						<pos width="100%" height="10"/>
+					</item>
+					<item type="label">
+						<pos x="44" y="2" height="21"/>
+						<normal color="#ffffff" font="Sans Bold 9"/>
+						<stock type="password-label"/>
+					</item>
+					<item type="entry" id="pw-entry">
+						<pos x="41" y="1" width="150" height="25"/>
+					</item>
+							<item type="label" id="pam-error">
+								<pos anchor="c" x="50%" y="20" expand="false"/>
+								<normal color="#ffffff" font="Sans Bold 9"/>
+								<text/>
+							</item>
+							<item type="label" id="caps-lock-warning">
+						        	<pos anchor="c" x="50%" y="20" expand="false"/>
+							        <normal color="#ffffff" font="Sans Bold 9"/>
+								<stock type="caps-lock-warning"/>
+					        	</item>
+				</box>
+			</item>
+		</box>
+
+	</item>
+
+	<!-- bottom bar and session buttons -->
+	<item type="rect" id="footer">
+		<pos y="85%" x="50%" anchor="c" width="350" height="65"/>
+		<fixed>
+			<item type="svg">
+				<normal file="widgets.svg" element="footer-background"/>
+				<pos width="350" height="65"/>
+			</item>
+		</fixed>
+		<box orientation="horizontal" spacing="0" xpadding="0">
+			<item type="rect" id="session_button" button="true">
+				<pos y="50%" anchor="w" width="175" height="box"/>
+				<box orientation="horizontal" spacing="10" xpadding="15">
+				        <item type="pixmap">
+						<normal file="session.png" tint="#ffffff"/>
+						<prelight file="session.png"/>
+						<active file="session.png" tint="#ffffff"/>
+					</item>
+					<item type="label">
+						<normal color="#dddddd" font="Sans Bold 9"/>
+						<prelight color="#ffffff" font="Sans Bold 9"/>
+						<active color="#ffffff" font="Sans Bold 9"/>
+						<stock type="session"/>
+						<pos y="50%" anchor="w"/>
+					</item>
+				</box>
+			</item>
+			<item type="rect" id="system_button" button="true">
+				<show modes="console" type="system"/>
+				<pos y="50%" anchor="w" width="175" height="box"/>
+				<box orientation="horizontal" spacing="10" xpadding="15">
+					<item type="pixmap">
+						<normal file="system.png" tint="#ffffff"/>
+						<prelight file="system.png"/>
+						<active file="system.png" tint="#ffffff"/>
+					</item>
+					<item type="label">
+						<normal color="#dddddd" font="Sans Bold 9"/>
+						<prelight color="#ffffff" font="Sans Bold 9"/>
+						<active color="#ffffff" font="Sans Bold 9"/>
+						<stock type="system"/>
+						<pos y="50%" anchor="w"/>
+					</item>
+				</box>
+			</item>
+		</box>
+	</item>
+
+</greeter>
