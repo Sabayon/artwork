@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="390"
+   height="234"
+   sodipodi:docname="kdm-rectange.png"
+   inkscape:export-filename="/home/v00d00/build/sabayon/artwork/5.2/sabayon-artwork-kde/ksplash/Sabayon/1600x1200/rectangle.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3602"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       inkscape:collect="always"
+       id="filter3616">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.989256"
+         id="feGaussianBlur3618" />
+    </filter>
+    <inkscape:perspective
+       id="perspective3700"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       inkscape:collect="always"
+       id="filter3765">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.7205672"
+         id="feGaussianBlur3767" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#40bec0"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="1121"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="2.5296067"
+     inkscape:cx="189.52066"
+     inkscape:cy="125.21901"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2820"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <rect
+     style="opacity:0.50000000000000000;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3765)"
+     id="rect2818-5"
+     width="378.39667"
+     height="219.45453"
+     x="5.8016663"
+     y="10.421045"
+     rx="9.019166"
+     ry="7.7489595"
+     clip-path="none"
+     transform="matrix(1,0,0,1.0338164,0,-8.0161633)"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <rect
+     style="opacity:0.25;fill:#000000;fill-opacity:1;stroke:none"
+     id="rect2818"
+     width="372.86221"
+     height="221.0358"
+     x="10.150168"
+     y="3.7148709"
+     rx="8.8872509"
+     ry="7.8047943"
+     clip-path="none" />
+</svg>

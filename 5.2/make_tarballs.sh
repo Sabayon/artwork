@@ -1,6 +1,6 @@
 #! /bin/bash
 VERSION=${1}
-FOLDERS="core gnome kde extra"
+FOLDERS="core gnome kde extra ooo"
 
 mkdir /home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}
 for tarball in ${FOLDERS}; do
@@ -10,4 +10,4 @@ for tarball in ${FOLDERS}; do
 	echo "Moving sabayon-artwork-${tarball}"
 	mv sabayon-artwork-${tarball}.tbz2 /home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}/sabayon-artwork-${tarball}-${VERSION}.tar.bz2
 done
-	
+

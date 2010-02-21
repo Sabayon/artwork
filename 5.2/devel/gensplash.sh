@@ -21,6 +21,7 @@ RES7="1280x800"
 RES8="1440x900"
 RES9="1680x1050"
 RES10="1920x1200"
+RES11="1024x600"
 
 if [ $1 = fbsplash ]
 then
@@ -29,10 +30,10 @@ then
         RESES="$RES1 $RES2 $RES3 $RES4 $RES5 $RES6" 
     elif [ $4 = wide ]
         then
-        RESES="$RES7 $RES8 $RES9 $RES10"
+        RESES="$RES7 $RES8 $RES9 $RES10 $RES11"
     elif [ $4 = all ]
         then
-        RESES="$RES1 $RES2 $RES3 $RES4 $RES5 $RES6 $RES7 $RES8 $RES9 $RES10"
+        RESES="$RES1 $RES2 $RES3 $RES4 $RES5 $RES6 $RES7 $RES8 $RES9 $RES10 $RES11"
     else
         echo "please choose normal, wide or all apsect ratios"
     fi
