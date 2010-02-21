@@ -28,49 +28,49 @@
 	</item>
 
 	<item type="rect" id="greeter">
-		<pos y="50%" x="50%" anchor="c" width="390" height="200"/>
+		<pos y="50%" x="50%" anchor="c" width="300" height="150"/>
 
 		<fixed>
 			<item type="svg">
 				<normal file="box.svg" element="topleft"/>
-				<pos anchor="nw" x="0" y="0" width="17" height="17"/>
+				<pos anchor="nw" x="0" y="0" width="13" height="13"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="top"/>
-				<pos anchor="n" x="50%" y="0" width="-34" height="17"/>
+				<pos anchor="n" x="50%" y="0" width="-26" height="13"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="topright"/>
-				<pos anchor="ne" x="-0" y="0" width="17" height="17"/>
+				<pos anchor="ne" x="-0" y="0" width="13" height="13"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="left"/>
-				<pos anchor="w" x="0" y="50%" width="17" height="-34"/>
+				<pos anchor="w" x="0" y="50%" width="13" height="-26"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="center"/>
-				<pos anchor="c" x="50%" y="50%" width="-34" height="-34"/>
+				<pos anchor="c" x="50%" y="50%" width="-26" height="-26"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="right"/>
-				<pos anchor="e" x="-0" y="50%" width="17" height="-34"/>
+				<pos anchor="e" x="-0" y="50%" width="13" height="-26"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="bottomleft"/>
-				<pos anchor="sw" x="0" y="-0" width="17" height="17"/>
+				<pos anchor="sw" x="0" y="-0" width="13" height="13"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="bottom"/>
-				<pos anchor="s" x="50%" y="-0" width="-34" height="17"/>
+				<pos anchor="s" x="50%" y="-0" width="-26" height="13"/>
 			</item>
 			<item type="svg">
 				<normal file="box.svg" element="bottomright"/>
-				<pos anchor="se" x="-0" y="-0" width="17" height="17"/>
+				<pos anchor="se" x="-0" y="-0" width="13" height="13"/>
 			</item>
-			<item type="svg">
+			<!--<item type="svg">
 				<normal file="widgets.svg" element="plot-background"/>
 				<pos anchor="nw" x="20" y="20" width="350" height="160"/>
-			</item>
+			</item>-->
 			<item type="svg" id="login_button" button="true">
 				<normal file="button.svg" element="button-normal"/>
 				<prelight file="button.svg" element="button-hover"/>
@@ -121,18 +121,18 @@
 
 	</item>
 
-	<!-- bottom bar and session buttons -->
+	<!-- bottom bar and session buttons
 	<item type="rect" id="footer">
-		<pos y="85%" x="50%" anchor="c" width="350" height="65"/>
+		<pos y="99%" x="50%" anchor="sw" width="101%" height="34"/>
 		<fixed>
 			<item type="svg">
 				<normal file="widgets.svg" element="footer-background"/>
-				<pos width="350" height="65"/>
+				<pos width="101%" height="34"/>
 			</item>
 		</fixed>
 		<box orientation="horizontal" spacing="0" xpadding="0">
 			<item type="rect" id="session_button" button="true">
-				<pos y="50%" anchor="w" width="175" height="box"/>
+				<pos y="50%" x="50%" anchor="ne" width="135" height="box"/>
 				<box orientation="horizontal" spacing="10" xpadding="15">
 				        <item type="pixmap">
 						<normal file="session.png" tint="#ffffff"/>
@@ -150,7 +150,7 @@
 			</item>
 			<item type="rect" id="system_button" button="true">
 				<show modes="console" type="system"/>
-				<pos y="50%" anchor="w" width="175" height="box"/>
+				<pos y="50%" x="50%" anchor="ne" width="135" height="box"/>
 				<box orientation="horizontal" spacing="10" xpadding="15">
 					<item type="pixmap">
 						<normal file="system.png" tint="#ffffff"/>
@@ -167,6 +167,50 @@
 				</box>
 			</item>
 		</box>
-	</item>
+	</item>-->
+	  <!-- bottom bar -->
+  <item type="rect">
+    <normal color="#000000" alpha="0.65"/>
+    <pos y="100%" x="0" width="100%" height="42" anchor="sw"/>
+    <box xpadding="45%" spacing="10" orientation="horizontal">
+   		 <!-- session -->
+			<item type="rect" id="session_button" button="true">
+				<pos y="50%" x="50%" anchor="c" width="135" height="box"/>
+				<box orientation="horizontal" spacing="10" xpadding="15">
+				        <item type="pixmap">
+						<normal file="session.png" tint="#ffffff"/>
+						<prelight file="session.png"/>
+						<active file="session.png" tint="#ffffff"/>
+					</item>
+					<item type="label">
+						<normal color="#dddddd" font="Sans Bold 9"/>
+						<prelight color="#ffffff" font="Sans Bold 9"/>
+						<active color="#ffffff" font="Sans Bold 9"/>
+						<stock type="session"/>
+						<pos y="50%" anchor="w"/>
+					</item>
+				</box>
+			</item>
+      <!-- system -->
+      		<item type="rect" id="system_button" button="true">
+				<show modes="console" type="system"/>
+				<pos y="50%" x="50%" anchor="c" width="135" height="box"/>
+				<box orientation="horizontal" spacing="10" xpadding="15">
+					<item type="pixmap">
+						<normal file="system.png" tint="#ffffff"/>
+						<prelight file="system.png"/>
+						<active file="system.png" tint="#ffffff"/>
+					</item>
+					<item type="label">
+						<normal color="#dddddd" font="Sans Bold 9"/>
+						<prelight color="#ffffff" font="Sans Bold 9"/>
+						<active color="#ffffff" font="Sans Bold 9"/>
+						<stock type="system"/>
+						<pos y="50%" anchor="w"/>
+					</item>
+				</box>
+			</item>
+    </box>
+  </item>
 
 </greeter>
