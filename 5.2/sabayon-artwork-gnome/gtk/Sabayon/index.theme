@@ -4,7 +4,7 @@ Type=X-GNOME-Metatheme
 Comment=Sabayon Gnome Theme
 
 [X-GNOME-Metatheme]
-GtkTheme=Clearlooks
+GtkTheme=ClearlooksSL
 MetacityTheme=MurrineCleanGlass
 IconTheme=gnome-brave
 GtkColorScheme=fg_color:#333333333333,bg_color:#d5d5d5d5d5d5,text_color:#333333333333,base_color:#ffffffffffff,selected_fg_color:#c03ac03ac03a,selected_bg_color:#262625252525,tooltip_fg_color:#ffffffffffff,tooltip_bg_color:#14143c3c8484
