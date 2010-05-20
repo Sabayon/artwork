@@ -19,7 +19,7 @@ done
 
 echo "moving ${1} to scalable/$2/$3.svgz"
 mkdir -p scalable/$2
-cp $1 ./scalable/$2/$3
-gzip -c scalable/$2/$3 > scalable/$2/$3.svgz
+cp $1 ./scalable/$2/$3.svg
+gzip -c scalable/$2/$3.svg > scalable/$2/$3.svgz
 
 rm $1
