@@ -1,6 +1,6 @@
 #! /bin/bash
 VERSION=${1}
-FOLDERS="core gnome kde extra ooo"
+FOLDERS="core gnome kde extra ooo lxde"
 
 mkdir /home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}
 for tarball in ${FOLDERS}; do
