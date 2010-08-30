@@ -1,21 +1,29 @@
 #! /bin/bash
 VERSION=${1}
 FOLDERS="core gnome kde extra ooo lxde"
-FILENAME="sabayon-artwork-${tarball}-${VERSION}"
+FILENAME="${PKGNAME}-${VERSION}"
 LOCALDIR="/home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}"
 REMOTEHOST="ian@sabayon.org"
 REMOTEDIR="/home/sabayonlinux/public_html/distfiles.sabayon.org/x11-themes"
 
 mkdir /home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}
-for tarball in ${FOLDERS}; do
-	echo "Compressing sabayon-artwork-${tarball}"
-	tar -cj --file=sabayon-artwork-${tarball}.tbz2 sabayon-artwork-${tarball}
-#	lzma -9v -F lzma -S .lzma sabayon-artwork-${tarball}.tar
-	echo "Moving sabayon-artwork-${tarball}"
-	mv sabayon-artwork-${tarball}.tbz2 ${LOCALDIR}/sabayon-artwork-${tarball}-${VERSION}.tar.bz2
-	
-	#Upload
-	rsync --progress -ave ssh ${LOCALDIR}/sabayon-artwork-${tarball}-${VERSION}.tar.bz2 \
-		${REMOTEHOST}:${REMOTEDIR}/sabayon-artwork-${tarball}/sabayon-artwork-${tarball}-${VERSION}.tar.bz2
+for PKGNAME1 in ${FOLDERS}; do
+	PKGNAME=sabayon-artwork-${PGKNAME1}
+
+	# Optimise PNGs
+	echo "Optimising PNG images"
+	find ${PKGNAME} -name "*.png" | xargs optipng -o2
+	find ${PKGNAME} -name "*.png" | xargs advpng -z -4
+
+	# Compression
+	echo "Compressing ${PKGNAME}"
+	tar -cj --file=${PKGNAME}.tbz2 ${PKGNAME}
+	#lzma -9v -F lzma -S .lzma ${PKGNAME}.tar
+	echo "Moving ${PKGNAME}"
+	mv ${PKGNAME}.tbz2 ${LOCALDIR}/${PKGNAME}-${VERSION}.tar.bz2
+
+	# Upload
+	rsync --progress -ave ssh ${LOCALDIR}/${PKGNAME}-${VERSION}.tar.bz2 \
+		${REMOTEHOST}:${REMOTEDIR}/${PKGNAME}/${PKGNAME}-${VERSION}.tar.bz2
 done
 
