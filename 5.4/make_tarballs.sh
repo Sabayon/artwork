@@ -1,14 +1,13 @@
 #! /bin/bash
 VERSION=${1}
 FOLDERS="core gnome kde extra ooo lxde"
-FILENAME="${PKGNAME}-${VERSION}"
 LOCALDIR="/home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}"
 REMOTEHOST="ian@sabayon.org"
 REMOTEDIR="/home/sabayonlinux/public_html/distfiles.sabayon.org/x11-themes"
 
 mkdir /home/v00d00/build/sabayon/artwork-ztarballs/${VERSION}
-for PKGNAME1 in ${FOLDERS}; do
-	PKGNAME=sabayon-artwork-${PGKNAME1}
+for I in ${FOLDERS}; do
+	export PKGNAME=sabayon-artwork-${I}
 
 	# Optimise PNGs
 	echo "Optimising PNG images"
