@@ -2,8 +2,8 @@
 HideEula=1
 Logo=1
 NativeProgress=true
-ProgressBarColor=54,113,191
-ProgressFrameColor=0,0,0
-ProgressPosition=-10,-10
-ProgressSize=-1,7
+ProgressBarColor=24,54,109
+ProgressFrameColor=36,36,36
+ProgressPosition=10,351
+ProgressSize=526,5
 URE_BOOTSTRAP=${ORIGIN}/fundamentalrc
