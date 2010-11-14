@@ -23,18 +23,27 @@ RES9="1680x1050"
 RES10="1920x1200"
 RES11="1024x600"
 
+#16:9
+RES12="1280x720"
+RES13="1366x768"
+RES14="1920x1080"
+
+43="${RES1} ${RES2} ${RES3} ${RES4} ${RES5} ${RES6}"
+1610="${RES7} ${RES8} ${RES9}${RES10} ${RES11}"
+169="${RES12} ${RES13} ${RES14}"
+
 if [ $1 = fbsplash ]
 then
     if [ $4 = normal ]
         then
 		#convert $2 -crop '1600x1200!+160' $2-43.png
-        RESES="$RES1 $RES2 $RES3 $RES4 $RES5 $RES6"
+        RESES="${43}"
     elif [ $4 = wide ]
         then
-        RESES="$RES7 $RES8 $RES9 $RES10 $RES11"
+        RESES="${1610} ${169}"
     elif [ $4 = all ]
         then
-        RESES="$RES1 $RES2 $RES3 $RES4 $RES5 $RES6 $RES7 $RES8 $RES9 $RES10 $RES11"
+        RESES="${43} ${1610} ${169}"
     else
         echo "please choose normal, wide or all apsect ratios"
     fi
