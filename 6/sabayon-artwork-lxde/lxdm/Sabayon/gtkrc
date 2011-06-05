@@ -7,7 +7,7 @@ style "back"
 			function = FLAT_BOX
 			shadow=NONE
 			state = NORMAL
-			file="/usr/share/backgrounds/kgdm.jpg"
+			file="kgdm.png"
 			stretch=TRUE
 			detail = "base"
 		}
