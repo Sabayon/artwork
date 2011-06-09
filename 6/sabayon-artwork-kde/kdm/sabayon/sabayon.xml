@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-Sabayon KDM theme 5.4
-Copyright (c) 2010 Sabayon Foundation
+Sabayon KDM theme 6
+Copyright (c) 2010-11 Sabayon Foundation
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
 
 Based on:
 Elegant Air KDM Theme 0.2
 Copyright (c) 2008 Max Resch <resch.max@gmail.com>
 Copyright (C) 2008 Vaxx <vaxxipooh@yahoo.se>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-===========
-Changelog:
-	0.2 (16.09.2008)
-	- Rewrote the xml file because of compatibility issues with KDM 4.1
-	- Released Background: Emotion by Vlad Gerasimov <vladstudio@gmail.com>
-	- Used Fonts: Segoe Semibold, Segoe Black, Segoe UI
 -->
 <greeter id="theme">
 	<style font="Sans 9" window-text-color="#bbbbbb" text-color="#000000" disabled-text-color="#808080"/>
