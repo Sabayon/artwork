@@ -1,0 +1,11 @@
+<thememeta xsi:schemaLocation="http://fbsplash.berlios.de/schemas/1.0/thememeta.xsd">
+  <name>sabayon</name>
+  <version>6</version>
+  <author>
+    <name>Ian Whyman</name>
+    <email>ian.whyman@sabayon.org</email>
+  </author>
+  <description>Offical Sabayon Linux 6 FBsplash theme</description>
+  <license>CC BY-SA 3.0</license>
+  <url>http://www.sabayon.org/</url>
+</thememeta>
