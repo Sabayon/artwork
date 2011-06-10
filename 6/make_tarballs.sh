@@ -1,18 +1,23 @@
 #! /bin/bash
-VERSION=${1}
 FOLDERS="core gnome kde extra loo lxde"
+TMP_DIR="/tmp"
 LOCALDIR="/home/v00d00/projects/sabayon/artwork-ztarballs/${VERSION}"
 REMOTEHOST="ian@pkg.sabayon.org"
 REMOTEDIR="/sabayon/rsync/rsync.sabayon.org/distfiles/x11-themes"
 
-mkdir ${LOCALDIR}
+if [ -z ${1} ]; then
+	echo "useage: ${0} Version"
+	exit
+else
+	VERSION="${1}"
+fi
+
+if [ ! -d ${LOCALDIR} ]; then
+	mkdir ${LOCALDIR}
+fi
+
 for I in ${FOLDERS}; do
 	export PKGNAME=sabayon-artwork-${I}
-
-	# Optimise PNGs
-	echo "Optimising PNG images..."
-	find ${PKGNAME} -name "*.png" | xargs optipng -o2
-	find ${PKGNAME} -name "*.png" | xargs advpng -z -4
 
 	# Compression
 	echo "Compressing ${PKGNAME}"
