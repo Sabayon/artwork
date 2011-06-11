@@ -1,14 +1,15 @@
 [Desktop Entry]
 Name=Sabayon
 Type=X-GNOME-Metatheme
-Comment=Sabayon Gnome Theme
+Comment=Offical Sabayon Theme
 
 [X-GNOME-Metatheme]
-GtkTheme=ClearlooksSL
-MetacityTheme=MurrineCleanGlass
-IconTheme=gnome-brave
-GtkColorScheme=fg_color:#333333333333,bg_color:#d5d5d5d5d5d5,text_color:#333333333333,base_color:#ffffffffffff,selected_fg_color:#c03ac03ac03a,selected_bg_color:#262625252525,tooltip_fg_color:#ffffffffffff,tooltip_bg_color:#14143c3c8484
+GtkTheme=Equinox Evolution
+MetacityTheme=Equinox Evolution Squared
+IconTheme=elementary
+GtkColorScheme=fg_color:#333333,bg_color:#DDDDDD,base_color:#FFFFFF,text_color:#333333,selected_bg_color:#5188E7,selected_fg_color:#FFFFFF,tooltip_fg_color:#EEEEEE,tooltip_bg_color:#222222,link_color:#0062dc
 CursorTheme=whiteglass
 CursorSize=16
-NotificationTheme=standard
-BackgroundImage=/usr/share/backgrounds/sabayonlinux.jpg
+NotificationTheme=slider
+BackgroundImage=/usr/share/backgrounds/sabayonlinux.png
+
