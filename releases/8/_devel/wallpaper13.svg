@@ -15,8 +15,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="wallpaper11.svg"
-   inkscape:export-filename="/home/fabio/repos/artwork/releases/8/_devel/wallpaper11.png"
+   sodipodi:docname="wallpaper12.svg"
+   inkscape:export-filename="/home/fabio/repos/artwork/releases/8/_devel/wallpaper12.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -24,7 +24,7 @@
     <linearGradient
        id="linearGradient3980">
       <stop
-         style="stop-color:#3d2525;stop-opacity:0.8427673;"
+         style="stop-color:#25728b;stop-opacity:0.67924529;"
          offset="0"
          id="stop3982" />
       <stop
@@ -131,7 +131,7 @@
        fx="789.93927"
        fy="488.86792"
        r="476.79199"
-       gradientTransform="matrix(1.0394499,0,-1.0775483e-8,0.40100592,-31.162991,445.19115)"
+       gradientTransform="matrix(0.68709486,0,0,0.40100592,247.17609,445.19115)"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -142,8 +142,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="810.97529"
-     inkscape:cy="345.55551"
+     inkscape:cx="801.56083"
+     inkscape:cy="449.49909"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
