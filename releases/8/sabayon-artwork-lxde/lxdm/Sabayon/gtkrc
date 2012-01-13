@@ -7,7 +7,7 @@ style "back"
 			function = FLAT_BOX
 			shadow=NONE
 			state = NORMAL
-			file="kgdm.png"
+			file="kgdm.jpg"
 			stretch=TRUE
 			detail = "base"
 		}
