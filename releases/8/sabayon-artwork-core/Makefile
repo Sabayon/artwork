@@ -14,7 +14,8 @@ scripts:
 cook:
 	tar -cJf $(TARBALL_NAME) \
 		../$(DIR_NAME) --exclude Makefile \
-		--exclude $(TARBALL_NAME)
+		--exclude $(TARBALL_NAME) \
+		--exclude .gitignore
 
 clean:
 	rm -f $(TARBALL_NAME)
