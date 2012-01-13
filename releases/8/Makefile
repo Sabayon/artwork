@@ -1,4 +1,4 @@
-SUBDIRS=sabayon-artwork-core sabayon-artwork-kde
+SUBDIRS=sabayon-artwork-core sabayon-artwork-kde sabayon-artwork-gnome
 
 include make.include
 
