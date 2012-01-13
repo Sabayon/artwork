@@ -39,8 +39,11 @@ for pfx in ${VERBOSE_PREFIX} ${SILENT_PREFIX}; do
             src_svg="${SILENT_SVG_4_3}"
         fi
         echo "Doing 4:3 -> ${pfx}${res}"
-        convert -resize "${res}" "${src_svg}" \
-            "${THEME_DIR}/${pfx}${res}${RASTER_EXT}" || exit 1
+        inkscape -z --export-png="${THEME_DIR}/${pfx}${res}${RASTER_EXT}" \
+            --export-area-page \
+            --export-width="$(echo ${res} | cut -dx -f 1)" \
+            --export-height="$(echo ${res} | cut -dx -f 2)" \
+            "${src_svg}" || exit 1
     done
     for res in ${RESOLUTION_16_9}; do
         if [ "${pfx}" = "${VERBOSE_PREFIX}" ]; then
@@ -49,7 +52,10 @@ for pfx in ${VERBOSE_PREFIX} ${SILENT_PREFIX}; do
             src_svg="${SILENT_SVG_16_9}"
         fi
         echo "Doing 16:9 -> ${pfx}${res}"
-        convert -resize "${res}" "${src_svg}" \
-            "${THEME_DIR}/${pfx}${res}${RASTER_EXT}" || exit 1
+        inkscape -z --export-png="${THEME_DIR}/${pfx}${res}${RASTER_EXT}" \
+            --export-area-page \
+            --export-width="$(echo ${res} | cut -dx -f 1)" \
+            --export-height="$(echo ${res} | cut -dx -f 2)" \
+            "${src_svg}" || exit 1
     done
 done
