@@ -15,13 +15,14 @@ scripts:
 cook:
 	tar -cJf $(TARBALL_NAME) \
 		../$(DIR_NAME) --exclude Makefile \
-		--exclude $(TARBALL_NAME) \
-		--exclude .gitignore
+		--exclude .gitignore \
+		--exclude *.tar.xz \
+		--exclude *.sh
 
 clean:
 	rm -f $(TARBALL_NAME)
 
-push:
+push: all
 	ssh -p $(PUSH_PORT) $(PUSH_USER)@$(PUSH_SERVER) \
 		mkdir -p $(PKG_PUSH_DIR)
 	scp -P $(PUSH_PORT) $(TARBALL_NAME) \
