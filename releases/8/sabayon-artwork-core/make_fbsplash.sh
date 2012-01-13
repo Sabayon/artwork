@@ -25,7 +25,7 @@ RESOLUTION_16_9="
 1920x1200
 "
 
-RASTER_EXT=".jpg"
+RASTER_EXT=".png"
 VERBOSE_PREFIX="verbose-"
 SILENT_PREFIX="silent-"
 
