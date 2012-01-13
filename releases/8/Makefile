@@ -3,10 +3,10 @@ SUBDIRS=sabayon-artwork-core sabayon-artwork-kde
 include make.include
 
 all:
-	for d in $(SUBDIRS); do $(MAKE) -C $$d; done
+	for d in $(SUBDIRS); do $(MAKE) -C $$d || exit 1; done
 
 clean:
-	for d in $(SUBDIRS); do $(MAKE) -C $$d clean; done
+	for d in $(SUBDIRS); do $(MAKE) -C $$d clean || exit 1; done
 
 push:
-	for d in $(SUBDIRS); do $(MAKE) -C $$d push; done
+	for d in $(SUBDIRS); do $(MAKE) -C $$d push || exit 1; done
