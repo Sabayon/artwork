@@ -9,6 +9,7 @@ PKG_PUSH_DIR = $(PUSH_DIR)/$(PKG_CATEGORY)/$(DIR_NAME)
 all: cook
 
 cook:
+	./make_fbsplash.sh
 	tar -cJf $(TARBALL_NAME) \
 		../$(DIR_NAME) --exclude Makefile \
 		--exclude $(TARBALL_NAME)

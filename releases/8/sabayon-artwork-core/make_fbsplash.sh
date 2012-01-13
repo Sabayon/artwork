@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SILENT_SVG_16_9="_devel/fbsplash_silent_16_9.svg"
-VERBOSE_SVG_16_9="_devel/fbsplash_verbose_16_9.svg"
-SILENT_SVG_4_3="_devel/fbsplash_silent_4_3.svg"
-VERBOSE_SVG_4_3="_devel/fbsplash_verbose_4_3.svg"
+SILENT_SVG_16_9="../_devel/fbsplash_silent_16_9.svg"
+VERBOSE_SVG_16_9="../_devel/fbsplash_verbose_16_9.svg"
+SILENT_SVG_4_3="../_devel/fbsplash_silent_4_3.svg"
+VERBOSE_SVG_4_3="../_devel/fbsplash_verbose_4_3.svg"
 
 RESOLUTION_4_3="
 640x480
@@ -29,7 +29,7 @@ RASTER_EXT=".jpg"
 VERBOSE_PREFIX="verbose-"
 SILENT_PREFIX="silent-"
 
-THEME_DIR="sabayon-artwork-core/fbsplash/sabayon/images"
+THEME_DIR="fbsplash/sabayon/images"
 
 for pfx in ${VERBOSE_PREFIX} ${SILENT_PREFIX}; do
     for res in ${RESOLUTION_4_3}; do
