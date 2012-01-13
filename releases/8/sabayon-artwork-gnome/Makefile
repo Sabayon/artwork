@@ -11,18 +11,18 @@ all: scripts cook
 scripts:
 
 cook:
-	tar -cJf $(TARBALL_NAME) \
+	tar -cJf ../$(TARBALL_NAME) \
 		../$(DIR_NAME) --exclude Makefile \
 		--exclude .gitignore \
 		--exclude *.tar.xz \
 		--exclude *.sh
 
 clean:
-	rm -f $(TARBALL_NAME)
+	rm -f ../$(TARBALL_NAME)
 
 push: all
 	ssh -p $(PUSH_PORT) $(PUSH_USER)@$(PUSH_SERVER) \
 		mkdir -p $(PKG_PUSH_DIR)
-	scp -P $(PUSH_PORT) $(TARBALL_NAME) \
+	scp -P $(PUSH_PORT) ../$(TARBALL_NAME) \
 		$(PUSH_USER)@$(PUSH_SERVER):$(PKG_PUSH_DIR)/
 
