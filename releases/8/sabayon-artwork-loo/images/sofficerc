@@ -5,5 +5,5 @@ NativeProgress=true
 ProgressBarColor=255,255,255
 ProgressFrameColor=255,255,255
 ProgressPosition=10,385
-ProgressSize=650,5
+ProgressSize=620,5
 URE_BOOTSTRAP=${ORIGIN}/fundamentalrc
