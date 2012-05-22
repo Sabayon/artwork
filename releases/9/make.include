@@ -1,0 +1,7 @@
+# Global build system variables
+
+PUSH_SERVER ?= distfiles.sabayon.org
+PUSH_PORT ?= 22
+PUSH_DIR ?= /sabayon/rsync/rsync.sabayon.org/distfiles/
+PUSH_USER ?= $(shell whoami)
+VERSION ?= 8-r2

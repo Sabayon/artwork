@@ -1,0 +1,11 @@
+# Apparently this is not really a .desktop file like the rest, but it's useful
+# to treat it as such
+
+[KdmGreeterTheme]
+Encoding=UTF-8
+Greeter=sabayon.xml
+Name=SabayonKDM
+Description=Sabayon KDM theme
+Author=Ian Whyman <ian.whyman@sabayon.org>
+Copyright=Sabayon Foundation
+Screenshot=screenshot.png
