@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   inkscape:export-filename="/home/ian/Desktop/sab9-4.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="wallpaper_final.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5251"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ff6600;stop-opacity:1;"
+         offset="0"
+         id="stop5253" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3806">
+      <stop
+         style="stop-color:#5ba5d0;stop-opacity:1;"
+         offset="0"
+         id="stop3808" />
+      <stop
+         id="stop8042"
+         offset="0.5"
+         style="stop-color:#305b78;stop-opacity:1;" />
+      <stop
+         style="stop-color:#20152a;stop-opacity:1;"
+         offset="1"
+         id="stop3810" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3806"
+       id="radialGradient8044"
+       cx="962.40741"
+       cy="1261.9116"
+       fx="962.40741"
+       fy="1261.9116"
+       r="1015.7143"
+       gradientTransform="matrix(1.1287934,-1.6825151e-8,-1.9064165e-8,1.282651,-114.75441,-672.98691)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43337931"
+     inkscape:cx="653.68927"
+     inkscape:cy="600.5258"
+     inkscape:document-units="px"
+     inkscape:current-layer="g10087"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     borderlayer="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,147.63782)"
+     style="display:inline">
+    <rect
+       style="fill:url(#radialGradient8044);fill-opacity:1;stroke:none"
+       id="rect2986"
+       width="1926.3945"
+       height="1206.795"
+       x="-3.7712059"
+       y="-151.56114" />
+    <g
+       style="display:inline"
+       id="g10087"
+       transform="translate(28.784822,-178.08494)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3187"
+         y="728.24896"
+         x="931.35352"
+         style="font-size:78.68585205px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.375;fill:#20152a;fill-opacity:1;stroke:none;display:inline;font-family:Luxi Serif;-inkscape-font-specification:Luxi Serif"
+         xml:space="preserve"><tspan
+           style="font-size:283.26907349px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#20152a;fill-opacity:1;font-family:Luxi Serif;-inkscape-font-specification:Luxi Serif"
+           y="728.24896"
+           x="931.35352"
+           id="tspan3189"
+           sodipodi:role="line">X</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3845"
+         y="637.23047"
+         x="751.44318"
+         style="font-size:128.57574463px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#dbe3e2;fill-opacity:1;stroke:none;font-family:Asenine;-inkscape-font-specification:Asenine"
+         xml:space="preserve"><tspan
+           y="637.23047"
+           x="751.44318"
+           id="tspan3847"
+           sodipodi:role="line">sabayon</tspan></text>
+    </g>
+  </g>
+</svg>

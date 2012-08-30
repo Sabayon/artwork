@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Sabayon
+Type=X-GNOME-Metatheme
+Comment=Offical Sabayon Theme
+
+[X-GNOME-Metatheme]
+GtkTheme=Equinox Evolution
+MetacityTheme=Equinox Evolution Squared
+IconTheme=elementary
+GtkColorScheme=fg_color:#333333,bg_color:#DDDDDD,base_color:#FFFFFF,text_color:#333333,selected_bg_color:#5188E7,selected_fg_color:#FFFFFF,tooltip_fg_color:#EEEEEE,tooltip_bg_color:#222222,link_color:#0062dc
+CursorTheme=whiteglass
+CursorSize=16
+NotificationTheme=slider
+BackgroundImage=/usr/share/backgrounds/sabayonlinux.png
+
