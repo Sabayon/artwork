@@ -4,6 +4,8 @@ SOURCE_SVG="../_devel/grub.svg"
 IMAGE_NAME="default-splash.png"
 THEME_DIR="images"
 
-convert -resize 1024x768 "${SOURCE_SVG}" \
-    "${THEME_DIR}/${IMAGE_NAME}" || exit 1
-
+inkscape -z --export-png="${THEME_DIR}/${IMAGE_NAME}" \
+            --export-area-page \
+            --export-width="1024" \
+            --export-height="768" \
+            "${SOURCE_SVG}" || exit 1
