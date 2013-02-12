@@ -30,7 +30,8 @@ style "prompt"
 style "bottom"
 {
 	font_name="Sans 10"
-	fg[NORMAL] = "#9E9D9B"
+	fg[NORMAL] = "#ffffff"
+
 	engine "pixmap"
 	{
 		image
@@ -48,4 +49,5 @@ widget "lxdm.*.time" style "time"
 widget "lxdm.*.prompt" style "prompt"
 widget "lxdm.*.bottom_pane" style "bottom"
 widget_class "GtkWindow.*.GtkEventBox.*.<GtkLabel>" style "bottom"
-widget_class "GtkWindow.*.<GtkLabel>" style "prompt"
+widget_class "GtkWindow.*.GtkAlignment.*.<GtkLabel>" style "prompt"
+
