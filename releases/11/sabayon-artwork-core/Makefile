@@ -9,7 +9,7 @@ PKG_PUSH_DIR = $(PUSH_DIR)/$(PKG_CATEGORY)/$(DIR_NAME)
 all: scripts cook
 
 scripts:
-	./make_fbsplash.sh
+	./make_wallpaper.sh
 
 cook:
 	tar -cJf ../$(TARBALL_NAME) \
