@@ -1,0 +1,3 @@
+[org.gnome.login-screen]
+logo='/usr/share/sabayon/gdm/logo.svg'
+enable-smartcard-authentication=false
