@@ -16,7 +16,7 @@ fun refresh_callback ()
     if (status == "normal")
       {
         logo.opacity_angle += ((2 * 3.14) / 50) * 0.5;  # 0.5 HZ
-        min_opacity = 0.3;
+        min_opacity = 0.6;
         opacity = (Math.Cos(logo.opacity_angle) + 1) / 2;
         opacity *= 1 - min_opacity;
         opacity += min_opacity;
